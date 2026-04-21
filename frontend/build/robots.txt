@@ -1,0 +1,35 @@
+# Robots.txt for Laptop Refurbished
+# https://laptoprefurbished.in
+
+User-agent: *
+Allow: /
+
+# Allow crawling of important pages
+Allow: /products
+Allow: /about
+Allow: /contact-us
+Allow: /faq
+Allow: /privacy-policy
+Allow: /terms-conditions
+Allow: /shipping-policy
+Allow: /return-policy
+Allow: /warranty-policy
+
+# Block private/user-specific pages
+Disallow: /cart
+Disallow: /checkout
+Disallow: /account
+Disallow: /login
+Disallow: /register
+Disallow: /order-success
+Disallow: /track-order
+Disallow: /admin-portal
+
+# Block API routes
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://laptoprefurbished.in/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 10

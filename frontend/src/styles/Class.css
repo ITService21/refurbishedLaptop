@@ -1,0 +1,78 @@
+.font-dm-sans {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    /* font-size: var(--dynamic-font-size, 16px); */
+    /* font-size: '11px'; */
+    line-height: 24px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+  }
+
+  /* globals.css */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #2fb411 !important; /* Green shade */
+}
+
+.swiper-pagination-bullet {
+  background-color: #cbd5e0 !important; /* Gray default */
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #2fb411 !important; /* Active bullet green */
+}
+
+.custom-swiper {
+    position: relative; /* just in case */
+  }
+  
+  /* Position nav buttons absolutely relative to the container */
+  .custom-swiper .swiper-button-prev {
+    left: 0 !important;   /* flush with container edge */
+    transform: translateX(-100%); /* push left button completely outside container padding */
+    width: 30px;  /* adjust button size if needed */
+    height: 30px;
+  }
+  
+  .custom-swiper .swiper-button-next {
+    right: 0 !important;  /* flush with container edge */
+    transform: translateX(100%);  /* push right button completely outside container padding */
+    width: 30px;
+    height: 30px;
+  }
+  
+
+
+
+
+
+  /* Loader styles */
+@keyframes dot-loader {
+  0%, 80%, 100% {
+    transform: scale(0.7);
+    opacity: 0.5;
+  }
+  40% {
+    transform: scale(1.6);
+    opacity: 1;
+  }
+}
+
+.loader-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 9999px;
+  display: inline-block;
+}
+
+.animate-loader {
+  animation: dot-loader 1s ease-in-out infinite;
+}
+
+ 
+ 
+
+
+
+

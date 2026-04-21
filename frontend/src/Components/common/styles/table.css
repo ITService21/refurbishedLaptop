@@ -1,0 +1,152 @@
+.table {
+  /* background-color: red; */
+  max-height: 100%;
+  height: 100%;
+  /* background-color:green; */
+}
+.table .ant-table-pagination {
+  /* background-color: green; */
+  margin-top: 0% !important;
+  margin-bottom: 0% !important;
+  padding-bottom: 0% !important;
+  padding-top: 1.6% !important;
+}
+.table .ant-pagination-item-active {
+  /* background-color: #5537ff !important; */
+  /* background-color: ; */
+  background-image: linear-gradient(90deg, #8775f1, #5537ff);
+  /* background-color; */
+  border-style: none;
+  border-radius: 50%;
+  color: white !important;
+}
+.table .ant-pagination-item a {
+  color: #616161 !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+}
+.table .ant-pagination-item-active a {
+  color: white !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+}
+.table .ant-pagination-item-link {
+  /* background-color: green; */
+  /* background-color: #4318FF; */
+  color: #4318ff !important;
+}
+
+.table .ant-table-container {
+  /* background-color: red !important; */
+  /* padding-top: 0.5%; */
+  border-top-right-radius: 20px !important;
+  border-top-left-radius: 20px !important;
+  border-bottom-right-radius: 24px !important;
+  border-bottom-left-radius: 24px !important;
+  overflow: hidden;
+}
+.table .ant-table {
+  /* background-color: red; */
+  border-top-right-radius: 24px !important;
+  border-top-left-radius: 24px !important;
+  border-bottom-right-radius: 24px !important;
+  border-bottom-left-radius: 24px !important;
+  box-shadow: 0px 0.5px 1px -1px rgba(0, 0, 0, 0.16),
+    0px 1.5px 3px 0px rgba(0, 0, 0, 0.12), 0px 2.5px 6px 2px rgb(211, 212, 218);
+}
+.table .anticon-left {
+  /* background-color: red; */
+  color: rgb(237, 239, 237);
+}
+.table .ant-table-body {
+  /* max-height: 200px !important; */
+  /* overflow-y:hidden !important; */
+  /* overflow-y: scroll !important; */
+}
+.table .ant-table-body {
+  /* scrollbar-width:thin;  */
+  /* scrollbar-color: #888 transparent;  */
+}
+.table .ant-table-header {
+  border: solid !important;
+  border-style: solid !important;
+  border-color: var(--blackthorn-berry) !important;
+  border-top-right-radius: 20px !important;
+  border-top-left-radius: 20px !important;
+  border-bottom-left-radius: 16px !important;
+  border-bottom-right-radius: 16px !important;
+  /* height: 7.1% !important; */
+  /* height: 100px !important; */
+  /* height: 64px !important; */
+}
+.table .ant-table-header table {
+  height: 7.1% !important;
+}
+
+/* .table .ant-table-cell{
+      background-color: red !important;
+    } */
+.table .ant-table-header thead th {
+  background-color: var(--foundation-white) !important;
+}
+
+.table .ant-table-body {
+  overflow-x: scroll; /* Enable horizontal scrolling */
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For IE/Old Edge */
+}
+
+/* This targets both scrollbars */
+.table .ant-table-body::-webkit-scrollbar {
+  /* Set a minimal height for horizontal, and a minimal width for vertical */
+  width: 5px; /* Example: Keep vertical scrollbar visible at 5px width */
+  height: 0px; /* Hide horizontal scrollbar by setting its height to 0 */
+  background: transparent; /* General background transparent */
+}
+
+/* Styles for the thumb for vertical scrollbar (assuming 5px width allows it) */
+.table .ant-table-body::-webkit-scrollbar-thumb {
+  background-color: #acabab; /* Your desired thumb color for vertical */
+  border-radius: 10px;
+}
+
+.table .ant-table-body::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* Styles for the track for vertical scrollbar */
+.table .ant-table-body::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Your desired track color for vertical */
+  border-radius: 10px;
+}
+.ant-table-filter-dropdown {
+  /* background-color: green !important; */
+  border-radius: 16px !important;
+}
+.table .ant-spin-nested-loading {
+  /* background-color: red !important; */
+  height: 100% !important;
+}
+.table .ant-spin-container {
+  height: 100%;
+  padding-bottom: 0px !important;
+  /* background-color: green; */
+}
+.table .ant-table-empty {
+  height: 100%;
+}
+.table .ant-table-tbody {
+}
+.table .ant-table-placeholder {
+}
+.table .ant-empty-normal {
+}
+.table .ant-spin-dot-spin {
+}
+
+
+.temp {
+  background-color: #5537ff;
+  color:red;
+}
