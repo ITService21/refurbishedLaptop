@@ -1,7 +1,7 @@
 const sequelize = require("../../../config/database");
 
-const GeneralProductInfo = require("./generalProductInfo")(sequelize);
-const DetailedSpecifications = require("./detailedSpecifications")(sequelize);
+const GeneralProductInfo = require("./GeneralProductInfo")(sequelize);
+const DetailedSpecifications = require("./DetailedSpecifications")(sequelize);
 
 // Define associations
 GeneralProductInfo.hasOne(DetailedSpecifications, {
